@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/popper"></script>
+    <script src="https://unpkg.com/bootstrap"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Step Two Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link" href="#">About Us</a>
+          <a class="nav-item nav-link disabled" href="#"
+            >Messages<span class="badge badge-success ml-1">12</span></a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1 class="m-2">Dashboard:</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Team</th>
+            <th scope="col">All Star</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Steph</th>
+            <td>Warriors</td>
+            <td>Yes</td>
+            <td>
+              <i class="fa fa-trash" style="color: red" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Lebron</th>
+            <td>Cavaliers</td>
+            <td>Yes</td>
+            <td>
+              <i class="fa fa-trash" style="color: red" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Dwayne</th>
+            <td>Heat</td>
+            <td>Yes</td>
+            <td>
+              <i class="fa fa-trash" style="color: red" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Kobe</th>
+            <td>Lakers</td>
+            <td>Yes<span class="badge badge-warning ml-1">Last</span></td>
+            <td>
+              <i class="fa fa-trash" style="color: red" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Isaiah</th>
+            <td>Celtics</td>
+            <td>Yes<span class="badge badge-success ml-1">First</span></td>
+            <td>
+              <i class="fa fa-trash" style="color: red" aria-hidden="true"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Todos:</h1>
+      <div class="alert alert-success m-0" role="alert">
+        Feel good about bootstrap
+      </div>
+      <div class="alert alert-primary m-0" role="alert">
+        Feel informed about bootstrap
+      </div>
+      <div class="alert alert-warning m-0" role="alert">
+        Feel warned about bootstrap
+      </div>
+      <div class="alert alert-warning m-0" role="alert">
+        Maybe I should read the docs
+      </div>
+      <div class="alert alert-danger m-0" role="alert">Danger Zone</div>
+      <div class="alert alert-danger m-0" role="alert">
+        I really should read the docs
+      </div>
+    </div>
+  </body>
+</html>
