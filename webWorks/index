@@ -1,0 +1,38 @@
+<p>What is HTTP?</p>
+hyper text transfer protocol
+<p>What is a URL?</p>
+Uniform Resource Locator
+<p>What is DNS?</p>
+Domain Name System, URL to IP Address
+<p>What is a query string?</p>
+Parameter in a URL that can be used as a argument in GET requests. Assigns
+values to specified parameters. Allows us to pass key-value pairs into the URL.
+<p>What are two HTTP verbs and how are they different?</p>
+Get - for no side effects, search bar, click link, some form submissions
+<br />
+Post - has side effects, update a website, comment, add photo, post, credit card
+information
+<p>What is an HTTP request?</p>
+Message that is sent from a client to a server
+<p>What is an HTTP response?</p>
+Made by a server to a client.
+<p>
+  What is an HTTP header? Give a couple examples of request and response headers
+  you have seen.
+  <br />
+  HTTP headers allow the client and server to pass additional information with a
+  request or a response.
+  <br />
+  Request headers: Host, User-agent, accept, cookie, cache-control Response
+  Headers: Content-type, Last-modified, Set-cookie, Cache-control
+  <br />
+</p>
+<p>
+  What are the processes that happen when you type
+  “http://somesite.com/some/page.html” into a browser?
+<br />
+Browser resolves name into an IP address, Browser makes a req to that IP address,
+ server sends a response, Browser contructs DOM, finds all resources needed including
+ HTML, CSS, JS, Browser makes separate HTTP reqs for each resource and takes response from server for each
+  </p>
+</p>
