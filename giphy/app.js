@@ -4,7 +4,7 @@ function init() {
   document.getElementById("searchBtn").addEventListener("click", (e) => {
     e.preventDefault();
     console.log("hello");
-    const APIKey = `24mxm7saBUuaqLKBGo0UyaQ9v833Rvxr`;
+    const APIKey = `uI4NgMU7xI34RhUYQPhi3pRxFo80xdYI`;
     const input = document.getElementById("meme").value;
     console.log(input);
     async function getMeme() {
