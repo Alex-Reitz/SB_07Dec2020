@@ -12,7 +12,7 @@ function init() {
       console.log(url);
       const resp = await axios.get(url);
       console.log(resp);
-      let imageSource = resp.data.data[0].images;
+      let imageSource = resp.data.data[0].images.original.url;
       console.log(imageSource);
 
       let memeImage = document.createElement("img");
